@@ -1,0 +1,200 @@
+header{
+
+  font-family: 'Cuprum', sans-serif;
+  color: #2c2b47;
+
+
+
+}
+.menu *{
+  margin: 0;
+  padding: 0;
+
+}
+.menu ul,
+.menu ol{
+  list-style: none;
+
+
+
+}
+.menu > ul{
+  display: flex;
+
+
+
+}
+.menu > ul li a {
+  display: block;
+  background: #2c2b47;
+  padding: 15px 30px 15px 40px;
+  font-size: 20px;
+  color:#d6d3d6;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  width: 225px;
+  height: 66px;
+  top:40px;
+  background-size: center;
+  background:   #2c2b47;
+
+}
+.menu > ul li{
+  position: relative;
+
+}
+.menu > ul li a i.fa{
+  position: absolute;
+
+
+  left:12px;
+  font-size: 18px;
+
+}
+.menu > ul li:first-child{
+  border-left: 1px solid #b2b3b5;
+
+}
+.menu > ul li:last-child{
+
+
+}
+.menu li a:hover{
+  background: ;
+  color: #d6d3d6;
+  box-shadow: 1px 5px 10px -5px black;
+  transition: all 0.3s ease;
+}
+.menu li a:hover{
+  background: #a1a1a1;
+  color:#d6d3d6;
+  box-shadow: 1px 5px 10px -5px black;
+  transition: all 0.3s ease;
+
+
+}
+/* Drop menu */
+.menu li ul{
+  position: absolute;
+  min-width: 150px;
+  display: none;
+
+}
+.menu li> ul li{
+  border: 1px solid #c7c8ca;
+}
+.menu li > ul li a{
+  padding: 10px;
+  text-transform: none;
+  background: #7e7bc9;
+
+}
+.menu li > ul li ul {
+  position: absolute;
+  right: -150px;
+  top:0;
+
+}
+.menu li:hover > ul{
+  display: block;
+}
+ul{
+  max-width:100px;
+}
+.far, fas{
+  font-size: 15px;
+
+
+}
+.float{
+  margin: 10px;
+  size: 200px;
+  background: gray;
+}
+.ps{
+  width: 25px;
+  font-size: 20px;
+  background-size: 40px;
+
+}
+.new{
+  width: 25px;
+  font-size: 20px;
+  background-size: 40px;
+}
+.for{
+  width: 25px;
+  font-size: 20px;
+  background-size: 40px;
+}
+.ball{
+  width: 25px;
+  font-size: 20px;
+  background-size: 40px;
+}
+.me{
+  width: 25px;
+  font-size: 20px;
+  background-size: 40px;
+}
+.sk{
+  width: 15px;
+  font-size: 20px;
+  background-size: 40px;
+}
+.num{
+  width: 25px;
+  font-size: 20px;
+  background-size: 40px;
+}
+header{
+ background:  #2c2b47;
+}
+.sk{
+  width: 30px;
+}
+body{
+
+  background-repeat: no-repeat;
+  width: 800px;
+  background: yellow;
+
+}
+h4{
+  background-position: left;
+  margin: 700px;
+  padding-top: 20px;
+  background-position: center;
+
+}
+body{
+  background-image: url("../img/банан.png");
+  background-position:  700px 650px;
+  background-repeat: no-repeat;
+}
+
+
+
+
+.text{
+
+
+
+  padding: 100px;
+
+
+
+  color: red;
+  font-size: 130px;
+}
+/* Header, footer */
+
+header, footer {
+  background-color: #38b6ff;
+  width: 1400px;
+
+}
+.border-top{
+  width: 100px;
+}
